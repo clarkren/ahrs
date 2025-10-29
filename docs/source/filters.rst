@@ -55,12 +55,13 @@ The following algorithms are implemented in this package:
 =============  =========  =============  ============
 Algorithm      Gyroscope  Accelerometer  Magnetometer
 =============  =========  =============  ============
-AQUA           YES        Optional       Optional
+AQUA           Optional   YES            Optional
 Complementary  YES        YES            Optional
 Davenport's    NO         YES            YES
 EKF            YES        YES            YES
 FAMC           NO         YES            YES
 FLAE           NO         YES            YES
+FKF            YES        YES            YES
 Fourati        YES        YES            YES
 FQA            NO         YES            Optional
 Integration    YES        NO             NO
@@ -72,7 +73,7 @@ ROLEQ          NO         YES            YES
 SAAM           NO         YES            YES
 Tilt           NO         YES            Optional
 TRIAD          NO         YES            YES
-UKF            YES        YES            NO
+UKF            YES        YES            Optional
 =============  =========  =============  ============
 
 .. toctree::
